@@ -1,0 +1,95 @@
+.text-field {
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    padding-top: 10px;  /* Добавляем отступ сверху, чтобы текст был выше */
+    box-sizing: border-box;  /* Учитываем padding в ширине и высоте */
+    height: 40px; /* Устанавливаем высоту input */
+    width: 100%;
+    font-size: 16px; /* Настраиваем размер шрифта */
+    line-height: 1.2; /* Устанавливаем межстрочное расстояние */
+}
+
+#create-button {
+    padding-inline: 23px;
+    padding-block: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    color: white;
+    background-color: red;
+}
+
+
+.to-do {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.radio-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-text {
+    flex-grow: 1;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px; /* Расстояние между кнопками */
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
